@@ -15,5 +15,6 @@ module Collabfield
       g.test_framework false
     end
     config.load_defaults 5.2
+    config.action_controller.include_all_helpers = false
   end
 end
