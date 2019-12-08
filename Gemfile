@@ -52,7 +52,13 @@ end
 
 group :test do
   # Adds support for Capybara system testing and selenium driver
+  gem 'rspec-rails', '~> 3.6'
+  gem 'factory_girl_rails'
+  gem 'rails-controller-testing'
+  gem 'headless'
   gem 'capybara', '>= 2.15'
+  gem 'poltergeist'
+  gem 'database_cleaner'
   gem 'selenium-webdriver'
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'chromedriver-helper'
