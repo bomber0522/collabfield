@@ -14,7 +14,7 @@ Rails.application.routes.draw do
   resources :posts do
     collection do
       get 'hobby'
-      get 'stuby'
+      get 'study'
       get 'team'
     end
   end
